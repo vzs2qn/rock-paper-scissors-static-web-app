@@ -1,11 +1,11 @@
-# A Rock Paper Scissors game hosted within an Azure Static Web App
+# A Paper Scissors Rock game hosted within an Azure Static Web App
 
 At Build 2020, Microsoft announced [Static Web Apps](https://azure.microsoft.com/en-gb/services/app-service/static/). Static Web App's allows acceleration of development with a static front fend with the option of using serverless API's as the back end. The serverless API's being Azure Functions.
 
 Azure Static Web Apps also automatically builds and deploys full stack web apps to Azure from a GitHub repository.
 
 # The Game
-Rock paper scissors is a hand game usually played between two people, in which each player simultaneously forms one of three shapes with an outstretched hand. A player who decides to play rock will beat another player who has chosen scissors, but will lose to one who has played paper; a play of paper will lose to a play of scissors. If both players choose the same shape, the game is tied.
+Paper Scissors Rock is a hand game usually played between two people, in which each player simultaneously forms one of three shapes with an outstretched hand. A player who decides to play rock will beat another player who has chosen scissors, but will lose to one who has played paper; a play of paper will lose to a play of scissors. If both players choose the same shape, the game is tied.
 
 ![04-the-game](assets/00-the-game.png)
 
@@ -51,5 +51,3 @@ The Action that is created by Azure Static Web Apps will also trigger when a pul
 # Custom Domain
 If you wish, you can also add a [custom domain](https://docs.microsoft.com/en-gb/azure/static-web-apps/custom-domain).
 
-# The Result
-Why not go a check it out yourself at [https://www.rockpaperscissors.cloud](https://www.rockpaperscissors.cloud)
