@@ -27,6 +27,6 @@ describe('AppHeaderComponent', () => {
     const fixture = TestBed.createComponent(AppHeaderComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Rock, Paper, Scissors');
+    expect(compiled.querySelector('h1').textContent).toContain('Paper, Scissors, Rock');
   });
 });
